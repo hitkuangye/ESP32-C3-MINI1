@@ -1,0 +1,16 @@
+{
+    "name": "pxt-ESP32-C3-M2",
+    "version": "0.0.1",
+    "description": "MakeCode extension for ESP32-C3-M2",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
