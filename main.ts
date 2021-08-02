@@ -142,7 +142,7 @@ namespace ESP8266ThingSpeak {
     //% block="Information received = %data"
     //% data.defl=0
     export function InformationReceived(data: string): string {
-        let target_str: string = "\u000D\u000A" + "+IPD,0,1:" + data + "\u000D\u000A"
+        let target_str: string = "\u000D\u000A" + "+IPD,0,2:" + data + "\u000D\u000A"
         let received_str: string = serial.readString()
         let received_result: boolean = false
         if (received_str == target_str) {
